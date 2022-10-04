@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Reto 2 GRUPO 13</title>
+    </head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script type="text/javascript" src="myScript.js"></script>
+    <link rel="StyleSheet" href="style.css" type="text/css">
+    <body>
+        <h2>GRUPO 13</h2>
+        <h1>Clientes</h1>
+        
+        <p>
+            <span style="color: grey">Julian David Rodriguez || Maria Camila Velez 
+                || Anderson Londoño || Erwin Duarte || Wilson Bautista </span>
+        </p>
+        
+        <div>
+            <input type="number" id="idCliente" placeholder="Id de Cliente"><br>
+            <input type="text" id="nombreCliente" placeholder="Nombre de Cliente"><br>
+            <input type="text" id="mailCliente" placeholder="Correo de Cliente"><br>
+            <input type="number" id="edadCliente" placeholder="Edad de Cliente"><br>
+        </div>
+        <br>
+        <button onclick="guardarCliente()">GUARDAR CLIENTE</button>
+        <button onclick="editarCliente()">ACTUALIZAR CLIENTE</button>
+        <button onclick="leerClientes()">TRAER CLIENTES</button>
+        <br><br>
+        <div id="listaClientes">
+            
+        </div>
+        <br><br>
+    </body>
+</html>
